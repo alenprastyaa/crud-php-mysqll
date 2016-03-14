@@ -1,9 +1,9 @@
 # crud-php-mysql
 Aplikasi CRUD dengan PHP dan MySQL (Procedural Style)
 
-Bahasa Pemrograman 	: PHP
-Database		        : MySQL (Ekstensi MySQL)
-Metode Pemrograman	: Prosedural
+Bahasa Pemrograman 	: PHP,
+Database		        : MySQL (Ekstensi MySQL),
+Metode Pemrograman	: Prosedural,
 Template		        : Bootstrap 3
 
 # Fitur
