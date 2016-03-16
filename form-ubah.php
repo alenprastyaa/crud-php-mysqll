@@ -14,17 +14,19 @@
       <div class="page-header">
         <h4>
           <i class="glyphicon glyphicon-edit"></i> 
-          Input data siswa
+          Ubah data siswa
         </h4>
       </div> <!-- /.page-header -->
       <?php
-      $nis  = $_GET['id'];
-      $sql  = mysql_query("SELECT * FROM is_siswa WHERE nis='$nis'");
-      $data = mysql_fetch_assoc($sql);
+      if (isset($_GET['id'])) {
+        $nis  = $_GET['id'];
+        $sql  = mysql_query("SELECT * FROM is_siswa WHERE nis='$nis'");
+        $data = mysql_fetch_assoc($sql);
 
-      $tanggal        = $data['tanggal_lahir'];
-      $tgl            = explode('-',$tanggal);
-      $tanggal_lahir  = $tgl[2]."-".$tgl[1]."-".$tgl[0];
+        $tanggal        = $data['tanggal_lahir'];
+        $tgl            = explode('-',$tanggal);
+        $tanggal_lahir  = $tgl[2]."-".$tgl[1]."-".$tgl[0];
+      }
       ?>
       <div class="panel panel-default">
         <div class="panel-body">
