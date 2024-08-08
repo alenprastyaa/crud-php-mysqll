@@ -101,7 +101,7 @@ require_once "config/database.php";
     
     <footer class="footer">
       <div class="container-fluid">
-        <p class="text-muted pull-left">&copy; 2016 Indra Studio</p>
+        <!-- <p class="text-muted pull-left">&copy; 2016 Indra Studio</p> -->
         <p class="text-muted pull-right ">Theme by <a href="http://www.getbootstrap.com" target="_blank">Bootstrap</a></p>
       </div>
     </footer>

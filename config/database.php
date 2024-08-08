@@ -11,10 +11,10 @@
  
 <?php
 // deklarasi parameter koneksi database
-$server   = "localhost";
-$username = "root";
-$password = "root";
-$database = "i_siswa";
+$server   = "sql12.freemysqlhosting.net";
+$username = "sql12724757";
+$password = "gDvbA5RSPL";
+$database = "sql12724757";
 
 // Koneksi dan memilih database di server
 mysql_connect($server,$username,$password) or die("Koneksi MySQL Gagal : " .mysql_error());
